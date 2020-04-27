@@ -107,7 +107,8 @@ h2 {
 .img-bg-main {
     background-image: url("../img/dot_matrix_paper_cropped_no_holes.png");
     background-repeat:repeat;
-    background-size:contain;
+    #background-size:contain;
+    max-width: 100%;
     margin-top: 50px;
 }
 
