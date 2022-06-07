@@ -1,0 +1,17 @@
+input[type="file"] {
+    display: none;
+}
+
+#file-upload {
+    font-family: 'Nova Mono', monospace;
+    font-size: 0.6em;
+    border: 1px;
+    border-style: solid;
+    border-color: #ffff9d;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    background-color: #ff009d;
+}

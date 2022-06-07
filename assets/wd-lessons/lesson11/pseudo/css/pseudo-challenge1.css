@@ -1,0 +1,46 @@
+body {
+    font-size: 16;
+}
+
+h1 {
+    font-family: "Cormant Garamond", serif;
+    font-size: 3em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Lobster", serif;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+    font-family: "Cormant Garamond", serif;
+}
+
+p::first-letter {
+    font-size: 3em;
+    font-family: "Lobster", cursive;
+}
+
+p::after {
+    content: "";
+    display: block;
+    height: 100px;
+    background-image: url("/images/rabbit.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+h2::before {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url("/images/alice-curtain.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}

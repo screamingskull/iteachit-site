@@ -1,0 +1,36 @@
+body {
+    font-size: 16px;
+    margin: 0px;
+    color: #2e2e2e;
+    font-family: 'Space Mono', monospace;
+}
+
+pre {
+    font-size: 0.83em;
+    padding-top: 160px;
+    margin-top: 0px;
+    background-color: #f9df9d;
+}
+
+.header {
+    display: block;
+    position: fixed;
+    background-color: #f9df9d;
+    font-size: 1.5em;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    transition-duration: 0.25s;
+}
+
+.shadow-header {
+    display: block;
+    position: fixed;
+    background-color: #f9df9d;
+    font-size: 1.5em;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    transition-duration: 0.25s;
+    box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.3);
+}

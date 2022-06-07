@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 10px;
+    background-color: white;
+    border-style: solid;
+    border-color: deepskyblue;
+    border-width: 1px;
+}
+
+.header {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 4em;
+    color: white;
+    background-color: deepskyblue;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.2);
+}
+
+.product {
+    font-family: "Raleway", sans-serif;
+    color: darkgray;
+    margin: 10px;
+}
+
+.description {
+    font-family: "Averia Sans Libre", sans-serif;
+    margin: 10px;
+    border-left-style: dotted;
+    border-left-width: 1px;
+    border-left-color: deepskyblue;
+    border-right-style: dotted;
+    border-right-width: 1px;
+    border-right-color: deepskyblue;
+    padding: 10px;
+}
+
+.picture {    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 150px;
+    min-width: 200px;
+    margin: 10px;
+}
+
+#pic1 {
+    background-image: url("/images/bmw-1313343_960_720.jpg");
+}
+
+#pic2 {
+    background-image: url("/images/capriola-sport-140325_960_720.jpg");
+}
+
+#pic3 {
+    background-image: url("/images/harley-davidson-1817818_960_720.jpg");
+}
+
+.picture:before {
+    background-color: rgba(255,255,255,0.7);
+    content: " ";
+    display: block;
+    transition: 1s;
+    min-height: 150px;
+}
+
+.picture:hover:before {
+    background-color: rgba(255,255,255,0);
+    content: " ";
+    display: block;
+    min-height: 150px;
+    transition: 1s;
+}

@@ -1,0 +1,67 @@
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {font-family: sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: sans-serif;
+    color: ivory;
+}
+.gr-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: sans-serif;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    border-color: deepskyblue;
+}
+
+.gr-left {
+    background-color: orangered;
+    height: 100px;
+}
+
+.gr-right {
+    background-color: darkorange;
+    height: 100px;
+}
+
+.gr-742 {
+    width: 742px;
+}
+
+.gr-458 {
+    width: 458px;
+}
+
+.gr-606 {
+    width: 606px;
+}
+
+.gr-374 {
+    width: 374px;
+}
+
+.gr-475 {
+    width: 475px;
+}
+
+.gr-293 {
+    width: 293px;
+}
+
+.gr-297 {
+    width: 297px;
+}
+
+.gr-183 {
+    width: 183px;
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Sample website for assignment 1</title>
+  <meta name="description" content="Sample website for assignment 1">
+  <meta name="author" content="DC">
+  <link rel="stylesheet" type="text/css" href="css/dropdown-example4.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    
+    <!-- Stolen from w3schools.com -->
+    <script>
+        function dropdown() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "dropdown-container") {
+                x.className += " responsive";
+            } else {
+                x.className = "dropdown-container";
+            }
+        }
+    </script>
+    
+</head>
+
+    <body>
+        <div class='dropdown-main-menu'>
+            <a class='hamburger' href="javascript:void(0);" onclick="dropdown()">&#9776;</a>
+        
+            <div class="dropdown-container" id='myTopnav'>
+                <a class='main-menu-item' href="#">About</a>
+                <a class='main-menu-item' href="#">Menu</a>
+                <a class='main-menu-item' href="#">Book</a>
+                <a class='main-menu-item' href="#">Enquiry</a>
+            </div>   
+        </div>
+    </body>
+</html>

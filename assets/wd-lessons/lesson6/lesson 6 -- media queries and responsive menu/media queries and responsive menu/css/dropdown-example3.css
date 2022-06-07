@@ -1,0 +1,32 @@
+body {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media (max-width: 420px) {
+    .hamburger {
+    display: inline-block;
+    }
+}
+
+.dropdown-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 420px) {
+    .dropdown-container {
+        display: none;
+    }
+}
+
+.dropdown-container.responsive {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}

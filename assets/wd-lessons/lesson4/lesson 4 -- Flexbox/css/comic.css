@@ -1,0 +1,76 @@
+body {
+    background-image: url(/resources_for_task/other_art/suggestedbg.png)
+}
+
+.flex-container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    margin: 10px;
+}
+
+.flex-container3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.flex-child {
+    border-style: solid;
+    border-color: black;
+}
+
+
+.main-title {
+    display: none;
+}
+
+.logo {
+    display: none;
+}
+
+@media (min-width: 401px) {
+    .main-title {
+        display: block;
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo {
+        display: block;
+        width: 10%;
+        margin: 10px;
+    }
+}
+
+
+.flex-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color: black;
+    max-height: 100px;
+    width: 100%;
+    margin: 10px;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+}
+
+p {
+    margin: 3px;
+}

@@ -1,0 +1,13 @@
+.form-group {
+    padding: 10px;
+}
+
+.form-control {
+    background-color: aliceblue;
+    border-color: cornflowerblue;
+}
+
+.btn {
+    margin: 8px;
+    float: right;
+}

@@ -1,0 +1,39 @@
+.new-para {
+    clear:both;
+}
+
+.quote-left {
+    float: left;
+    font-family: serif;
+    font-style: italic;
+    font-size: 1.5em;
+    color: cornflowerblue;
+    margin: 10px;
+}
+
+.quote-right {
+    float: right;
+    font-family: serif;
+    font-style: italic;
+    font-size: 1.5em;
+    color: cornflowerblue;
+    margin: 10px;
+}
+
+.image-right {
+    float: right;
+    margin: 30px;
+}
+
+.image-left {
+    float: left;
+    margin: 30px;
+}
+
+h1 {
+    color: black;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 3em;
+}

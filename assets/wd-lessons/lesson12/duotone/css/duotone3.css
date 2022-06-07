@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: white;
+}
+
+.header {
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 4em;
+    background-color: white;
+    padding: 0px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.shadow-header {
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 4em;
+    background-color: white;
+    padding: 0px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.2);
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+
+}
+
+h1 {
+    display:;
+}
+
+#pic1 {
+    background-image: url("/images/Photo%2023-12-2015,%2019%2022%2002.jpg");
+    margin-top: 100px;
+}
+
+#pic2 {
+    background-image: url("/images/ballet%20shoes%20pink.jpg");
+}
+
+#pic3 {
+    background-image: url("/images/zadar-1650570_960_720.jpg");
+}
+
+.pic-container {    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+}
+
+
+.original:before {
+    background-color: rgba(20,50,228,0.5);
+    content: "Original Image";
+    text-align: center;
+    font-family: "Miltonion", cursive;
+    font-size: 5em;
+    color: white;
+    display: block;
+    height: 800px;
+    transition: 1s;
+}
+
+
+.original:hover:before {
+    background-color: rgba(0,0,255,0);
+    content: "Original Image";
+    text-align: center;
+    font-family: "Miltonion", cursive;
+    font-size: 5em;
+    color: white;
+    display: block;
+    height: 800px;
+    transition: 1s;
+}
+
+.colorized:before {
+    background-color: rgba(20,50,228,0.5);
+    content: "Colorized Pink";
+    text-align: center;
+    font-family: "Miltonion", cursive;
+    font-size: 5em;
+    color: white;
+    display: block;
+    height: 800px;
+    transition: 1s;
+}
+
+
+.colorized:hover:before {
+    background-color: rgba(0,0,255,0);
+    content: "Colorized Pink";
+    text-align: center;
+    font-family: "Miltonion", cursive;
+    font-size: 5em;
+    color: white;
+    display: block;
+    height: 800px;
+    transition: 1s;
+}

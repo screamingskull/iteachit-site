@@ -1,0 +1,206 @@
+body {
+    font-size: 16px;
+    font-family: 'KingBasil';
+    color: white;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media (max-width: 420px) {
+    .hamburger {
+        display: inline;
+        background-color: #6ccdeb;
+        height: 47px;
+        font-size: 1.8em;
+    }
+}
+
+.dropdown-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+@media (max-width: 420px) {
+    .dropdown-container {
+        display: none;
+    }
+}
+
+@media (min-width: 420px) {
+    .dropdown-container.responsive {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 420px) {
+    .dropdown-container.responsive {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        background-color: #6ccdeb;
+    }
+}
+
+.dropdown-main-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #6ccdeb;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Woodlands';
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    background-color: #6ccdeb;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.main-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 420px) {
+    .main-menu {
+        display: none;
+    }
+}
+
+.main-menu-item {
+    display: block;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: solid;
+    border-width: 1px;
+    transition-duration: 1s;
+        
+    font-family: 'KingBasil';
+    font-size: 1.5em;
+}
+
+@media (max-width: 600px) {
+    .main-menu-item {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-menu-item {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 420px) {
+    .main-menu-item {
+        border: none;
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background: rgba(255,255,255,0.2);
+    transition-duration: 0.5s;
+}
+
+.menu-container {
+    background-color: #6ccdeb;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.body-paragraph {
+    font-size: 2em;
+    height: 500px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.para1 {
+    background-image: url(/images/rice-dish-1740298_960_720.jpg);
+}
+
+.para2 {
+    background-image: url(/images/bread-1696142_960_720.jpg);
+}
+
+.body-cards-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #e9e76d;
+}
+
+.card-paragraph {
+    /*background-color: rgba(0,0,0,0.1);*/
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    border: solid;
+    border-width: 1px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3.7em;
+    text-align: center;
+    padding-top: 10px;
+    transition-duration: 1s;
+}
+
+.verticle-rule {
+    border-left: dotted;
+    border-color: white;
+    border-width: 2px;
+    margin: 10px;
+}
+
+
+.footer-container-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6ccdeb;
+    min-height: 100px;
+}
+
+.footer-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+}
+
+.footer {
+    height: 200px;
+    background-color: #6ccdeb;
+}
+
+@font-face {
+    font-family: 'KingBasil';
+    src: url('/fonts/King-Basil-Lite-Free/King-Basil-Lite.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Woodlands';
+    src: url('/fonts/Woodlands/TheWoodlands-Regular.otf') format('truetype');
+}

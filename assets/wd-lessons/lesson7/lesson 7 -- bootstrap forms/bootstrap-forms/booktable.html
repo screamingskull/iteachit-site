@@ -1,0 +1,119 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Sample website for assignment 1</title>
+  <meta name="description" content="Sample website for assignment 1">
+  <meta name="author" content="DC">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="css/style-dropdown.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <script>
+        <!--This JS routine was taken from http://www.w3schools.com/howto/howto_js_topnav.asp-->
+        
+        function dropdown() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "dropdown-container") {
+            x.className += " responsive";
+            } else {
+                x.className = "dropdown-container";
+            }
+        }
+    </script>
+    
+    <div>
+        <a href='index.html'><h1>Knife&Fork</h1></a>
+    </div>
+    
+    
+    <div class='dropdown-main-menu'>
+        <a class='hamburger' href="javascript:void(0);" onclick="dropdown()">&#9776;</a>
+        
+        <div class="dropdown-container" id='myTopnav'>
+            <a class='main-menu-item' href="#">About</a>
+            <a class='main-menu-item' href="#">Menu</a>
+            <a class='main-menu-item' href="booktable.html">Book</a>
+            <a class='main-menu-item' href="#">Enquiry</a>
+        </div>
+    </div>
+    
+    <div class='body-container'>
+        <p class="body-paragraph para3">Please fill in the form below to book a table</p>
+    </div>
+    
+        <form>
+            <div class="form-container container-fluid">
+            <div class="row">
+            
+            <div class="form-group col-sm-4">
+                <label for="selectTitle">Title</label>
+                <select class="form-control">
+                    <option>Mr</option>
+                    <option>Mrs</option>
+                    <option>Miss</option>
+                    <option>Ms</option>
+                    <option>Dr</option>
+                    <option>Sir</option>
+                </select>
+
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" placeholder="Joe">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" placeholder="Bloggs">
+            </div>
+            
+            <div class="form-group col-sm-4">
+                <label for="emailAddress">Email us</label>
+                <input type="email" class="form-control" placeholder="Enter email address">
+                <br>
+                <label for="emailAddress">Confirm email</label>
+                <input type="email" class="form-control" placeholder="Please re-type your email">
+                <small class="form-text"><i>We promise not to spam you!</i></small>
+            </div>
+
+            <div class="form-group col-sm-4">
+                <label for="selectDiners">Number of diners</label>
+                <select class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                </select>    
+                
+                <label class="control-label" for="date">Date</label>
+                <input class="form-control" id="date" name="date" placeholder="DD/MM/YYYY" type="text"/>
+                
+            </div>
+            </div>
+            <div class="form-group col-xs-12">
+                <label for="message">Please write your comments here:</label>
+                <input type="text" class="form-control" placeholder="Dear Knife & Fork...">
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+            
+    <div class='footer-container-flex'>
+        <div class="footer-item">
+            Created by David Caldwell
+        </div>
+    </div>
+    
+</body>
+</html>

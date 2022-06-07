@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Sample website for assignment 1</title>
+  <meta name="description" content="Sample website for assignment 1">
+  <meta name="author" content="DC">
+  <link rel="stylesheet" type="text/css" href="css/style-dropdown.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+
+<body>
+    
+    <script>
+        <!--This JS routine was taken from http://www.w3schools.com/howto/howto_js_topnav.asp-->
+        
+        function dropdown() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "dropdown-container") {
+            x.className += " responsive";
+            } else {
+                x.className = "dropdown-container";
+            }
+        }
+    </script>
+    
+    <div>
+        <h1>Knife&Fork</h1>
+    </div>
+    
+    
+    <div class='dropdown-main-menu'>
+        <a class='hamburger' href="javascript:void(0);" onclick="dropdown()">&#9776;</a>
+        
+        <div class="dropdown-container" id='myTopnav'>
+            <a class='main-menu-item' href="#">About</a>
+            <a class='main-menu-item' href="#">Menu</a>
+            <a class='main-menu-item' href="#">Book</a>
+            <a class='main-menu-item' href="#">Enquiry</a>
+        </div>
+    </div>
+    
+    <div class='body-container'>
+        <p class="body-paragraph para1">We offer a tempting selection of vegan dishes.</p>
+        
+        <div class='body-cards-flex'>
+            <a class='card-paragraph' href="#">View our extensive menu</a>
+            <a class='card-paragraph' href="#ß">Book a table for tonight</a>
+        </div>
+        
+        <p class="body-paragraph para2">Try some of our fresh artisan bread with your meal.</p>
+    </div>
+    
+        <div class='body-cards-flex'>
+            <a class='card-paragraph' href="#">Our history and ethos</a>
+            <a class='card-paragraph' href="#">Make an enquiry</a>
+        </div>
+    
+    <div class='footer-container-flex'>
+        <div class="footer-item">
+            Created by David Caldwell
+        </div>
+    </div>
+    
+</body>
+</html>

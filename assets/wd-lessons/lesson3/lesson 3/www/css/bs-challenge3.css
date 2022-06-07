@@ -1,0 +1,41 @@
+.column-1 {
+    background-color: rgba(255,0,0,1);
+    color: lightgray;
+    text-align: center;
+}
+
+.column-2 {
+    background-color: rgba(0,255,0,1);
+    color: lightgray;
+    text-align: center;
+}
+
+.column-3 {
+    background-color: rgba(0,0,255,1);
+    color: lightgray;
+    text-align: center;
+}
+
+.column-4 {
+    background-color: rgba(255,255,0,1);
+    color: lightgray;
+    text-align: center;
+}
+
+  @media (max-width: 600px) {
+    .row {
+        font-size: 8px;
+  }
+}
+
+  @media (min-width: 601px) and (max-width: 800px) {
+    .row {
+        font-size: 12px;
+  }
+}
+
+  @media (min-width: 801px) {
+    .row {
+        font-size: 18px;
+  }
+}

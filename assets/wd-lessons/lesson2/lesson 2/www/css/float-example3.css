@@ -1,0 +1,32 @@
+.para1 {
+    clear: left;
+}
+
+.para2 {
+    clear: left;
+}
+
+.para3 {
+    clear: right;
+}
+
+.quote1 {
+    float: left;
+    font-family: serif;
+    font-style: italic;
+    font-size: 1.5em;
+    color: cornflowerblue;
+    margin: 10px;
+}
+
+.image1 {
+    float: right;
+    margin: 30px;
+}
+
+h1 {
+    color: black;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}

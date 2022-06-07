@@ -1,0 +1,47 @@
+h1 {
+    color:orange; 
+    background-color: grey;
+    font-family: sans-serif;
+}
+
+h3 {
+    color:darkorange; 
+    background: grey;
+    font-family: sans-serif
+}
+
+h2 {
+    color:black; 
+    background-color: white;
+    font-style: italic;
+    font-size: 20px;
+}
+
+p {
+    background-color: lightgrey;
+}
+
+ul {
+    font-family: fantasy;
+    border-color: coral;
+    border-bottom-style: dotted;
+    border-top-style: dotted;
+    border-width: thin;
+    background-color: antiquewhite;
+}
+
+ul.top-menu {
+    font-family: sans-serif;
+    border-color: black;
+    border-bottom-style: dotted;
+    border-top-style: dotted;
+    border-width: thin;
+    background-color: orange;
+    height: 25px;
+}
+
+li.nav-link {
+    float: right;
+    display: inline;
+    padding: 3px;
+}

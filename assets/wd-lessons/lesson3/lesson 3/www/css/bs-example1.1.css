@@ -1,0 +1,28 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    color: grey;
+    text-align: center;
+}
+
+p {
+    color: darkblue;
+    background-color: azure;
+    border-style: dotted;
+    border-width: 1px;
+    text-align: center;
+}
+
+.container {
+    border-style: dashed;
+    border-width: thick;
+    background-color: aqua;
+}
+
+.row {
+    background-color: cadetblue;
+    border-style: solid;
+    margin: 6px;
+}

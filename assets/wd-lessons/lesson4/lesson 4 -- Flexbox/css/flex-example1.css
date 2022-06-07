@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    
+    border: dotted;
+    background-color: bisque;
+}
+
+.flex-child {
+    padding: 10px;
+    margin: 10px;
+    background-color: darkorange;
+    border: solid;
+}
