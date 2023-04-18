@@ -25,7 +25,7 @@
 }
 
 .img-link:hover {
-    box-shadow: 0px 0px 200px #a0f0a0;
+    box-shadow: 0px 0px 200px #EBFF33;
     transition: all 0.5s;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .img-link-lesson:hover {
-    box-shadow: 0px 0px 200px #a0f0a0;
+    box-shadow: 0px 0px 200px #EBFF33;
     transition: all 0.5s;
 }
 
