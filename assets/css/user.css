@@ -25,7 +25,8 @@
 }
 
 .img-link:hover {
-    box-shadow: 0px 0px 200px #EBFF33;
+    #box-shadow: 0px 0px 200px #EBFF33;
+    box-shadow: 0px 0px 200px #CCCCCC;
     transition: all 0.5s;
 }
 
